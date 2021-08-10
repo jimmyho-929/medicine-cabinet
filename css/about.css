@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    vertical-align: baseline;
+}
+
+* {
+    font-family: 'Jost', sans-serif;
+    color: #081C15;
+}
+
+body {
+    background-color: #B7E4C7;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+h3 {
+    width: 3rem
+}
+
+.nav-div {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+    
+}
+
+.nav-div a {
+    padding: 0 0.5rem;
+    text-decoration: none;
+    color: #1B4332
+}
+
+.nav-div a:hover {
+    text-decoration: underline;
+}
+
+
+
+header {
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 0 auto;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem
+}
+
+section p{
+    margin: 1rem;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+footer{
+    background-color: #1B4332;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ footer div {
+     margin: .5rem
+ }
+
+footer p {
+    color: #B7E4C7
+}
+
+@media (max-width: 800px) {
+    .nav-div {
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .header p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+   header p {
+       font-size: 1.15rem;
+   }
+
+   h2 {
+       font-size: 1.5rem;
+   }
+}
